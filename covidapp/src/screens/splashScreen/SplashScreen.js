@@ -2,7 +2,10 @@ import * as React from 'react';
 import {View, Image} from 'react-native';
 import styles from '../splashScreen/SplashScreen.styles';
 
-function SplashScreen() {
+function SplashScreen({navigation}) {
+  setTimeout(() => {
+    navigation.navigate('LoginScreen');
+  }, 3000);
   return (
     <View style={styles.container}>
       <View>
