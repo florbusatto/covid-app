@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {View, Text, Image} from 'react-native';
-import {Button, TextInput} from 'react-native-paper';
 import styles from '../loginScreen/LoginScreen.styles';
+import ButtonGoogle from '../../components/buttonGoogle/ButtonGoogle';
 
 function LoginScreen() {
   return (
@@ -14,33 +14,9 @@ function LoginScreen() {
           />
         </View>
         <View>
-          <Text style={styles.title}>Ingrese sus datos</Text>
+          <Text style={styles.title}>Ingrese a su cuenta</Text>
         </View>
-        <View>
-          <TextInput
-            style={styles.input}
-            mode="outlined"
-            label="Nombre y Apellido"
-            placeholder="Ingrese sus datos"
-            right={<TextInput.Affix text="/100" />}
-          />
-        </View>
-        <View>
-          <TextInput
-            style={styles.input}
-            mode="outlined"
-            label="Password"
-            secureTextEntry
-          />
-        </View>
-        <View>
-          <Button
-            style={styles.btn}
-            mode="contained"
-            onPress={() => console.log('Pressed')}>
-            Iniciar Sesión
-          </Button>
-        </View>
+        <ButtonGoogle />
       </View>
     </>
   );

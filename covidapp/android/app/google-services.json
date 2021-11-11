@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "974324655695",
+    "project_id": "lemon-d987c",
+    "storage_bucket": "lemon-d987c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974324655695:android:a65c87ffd69e674831ac3a",
+        "android_client_info": {
+          "package_name": "com.covid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974324655695-ug8p27a90p431jr3pbs3pcc5t81s1t0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4uZpUmCaVG3-AbsZpaM27QXXNOuo3RIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974324655695-ug8p27a90p431jr3pbs3pcc5t81s1t0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974324655695:android:f3c9573f8fab358731ac3a",
+        "android_client_info": {
+          "package_name": "com.covidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974324655695-ug8p27a90p431jr3pbs3pcc5t81s1t0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4uZpUmCaVG3-AbsZpaM27QXXNOuo3RIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974324655695-ug8p27a90p431jr3pbs3pcc5t81s1t0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
